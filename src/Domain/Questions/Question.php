@@ -2,6 +2,7 @@
 
 namespace App\Domain\Questions;
 
+use App\Domain\Answers\Answer;
 use App\Domain\Questions\Events\QuestionWasChanged;
 use App\Domain\Questions\Events\QuestionWasPlaced;
 use App\Domain\Questions\Question\QuestionId;
